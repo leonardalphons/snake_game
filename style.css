@@ -1,0 +1,21 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+:root {
+  --bg-primary-color: #242222ae;
+  --text-primary-color: rgb(243, 225, 225);
+}
+
+html {
+  background-color: var(--bg-primary-color);
+  color: var(--text-primary-color);
+}
